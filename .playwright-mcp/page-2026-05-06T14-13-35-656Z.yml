@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e14]:
+    - navigation "Розділи сторінки" [ref=e15]:
+      - link "Деталі" [ref=e16] [cursor=pointer]:
+        - /url: "#details"
+      - link "Дрес-код" [ref=e17] [cursor=pointer]:
+        - /url: "#dresscode"
+      - link "Підтвердження" [ref=e18] [cursor=pointer]:
+        - /url: "#rsvp"
+  - main [ref=e19]:
+    - region "Денис & Аліна" [ref=e20]:
+      - generic [ref=e22]:
+        - heading "Денис & Аліна" [level=1] [ref=e23]:
+          - generic [ref=e24]: Денис
+          - generic [ref=e25]: "&"
+          - generic [ref=e26]: Аліна
+        - paragraph [ref=e27]: 06 · 06 · 2026
+      - link "До запрошення" [ref=e28] [cursor=pointer]:
+        - /url: "#intro"
+        - img [ref=e29]
+    - region "Дорогі…" [ref=e31]:
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: Дорогі…
+        - paragraph [ref=e34]: У нашому житті відбудеться надзвичайно важлива подія — наше весілля! Ми щиро віримо, що цей день стане прекрасним початком нашого щасливого сімейного життя.
+        - paragraph [ref=e35]: І ми не уявляємо цей радісний день без вас — близьких і дорогих нам людей!
+    - region "Деталі" [ref=e36]:
+      - text: 06·06
+      - generic [ref=e37]:
+        - heading "Деталі" [level=2] [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: Дата
+            - paragraph [ref=e42]: Субота, 6 червня 2026
+          - generic [ref=e43]:
+            - generic [ref=e44]: Місце
+            - paragraph [ref=e45]: Villa Malina, вул. Приморська, 92, Лютіж, Київська обл.
+            - link "Переглянути на карті →" [ref=e46] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/XyK6kf7c1bPBeFvTA
+        - generic "Програма дня" [ref=e47]:
+          - generic [ref=e48]:
+            - time [ref=e49]: 14:00
+            - generic [ref=e50]: Welcome
+          - generic [ref=e52]:
+            - time [ref=e53]: 15:00
+            - generic [ref=e54]: Церемонія
+          - generic [ref=e56]:
+            - time [ref=e57]: 16:00
+            - generic [ref=e58]: Банкет
+    - region "Фотографії Дениса та Аліни" [ref=e59]:
+      - generic [ref=e60]:
+        - img "Денис та Аліна" [ref=e62]
+        - img "Денис та Аліна" [ref=e64]
+        - img "Денис та Аліна" [ref=e66]
+        - img "Денис та Аліна" [ref=e68]
+      - button "Попереднє фото" [ref=e69] [cursor=pointer]:
+        - img [ref=e70]
+      - button "Наступне фото" [ref=e72] [cursor=pointer]:
+        - img [ref=e73]
+      - group "Навігація по фото" [ref=e76]:
+        - button "Фото 1" [pressed] [ref=e77] [cursor=pointer]
+        - button "Фото 2" [ref=e78] [cursor=pointer]
+        - button "Фото 3" [ref=e79] [cursor=pointer]
+        - button "Фото 4" [ref=e80] [cursor=pointer]
+    - region "Дрес-код" [ref=e81]:
+      - generic [ref=e82]:
+        - heading "Дрес-код" [level=2] [ref=e83]
+        - paragraph [ref=e85]: "Ми обрали ніжну палітру — кольори природи: м'які, світлі відтінки, без яскравих акцентів, натхненні природною гармонією та легкістю."
+        - list "Кольори дрес-коду" [ref=e86]:
+          - listitem [ref=e87]:
+            - generic [ref=e89]: Бежевий
+          - listitem [ref=e90]:
+            - generic [ref=e92]: Шавлієвий
+          - listitem [ref=e93]:
+            - generic [ref=e95]: Світло‑лимонний
+          - listitem [ref=e96]:
+            - generic [ref=e98]: Світло‑блакитний
+          - listitem [ref=e99]:
+            - generic [ref=e101]: Світло‑рожевий
+          - listitem [ref=e102]:
+            - generic [ref=e104]: Смарагдовий
+        - paragraph [ref=e105]: "Святкування відбудеться на відкритому повітрі — оберіть зручний одяг та взуття. Захопіть рушничок: на вас чекатиме приємний водний формат."
+    - region "Наші дорогі!" [ref=e106]:
+      - generic [ref=e107]:
+        - paragraph [ref=e108]: Наші дорогі!
+        - paragraph [ref=e109]: "Вашу увагу та присутність ми вважаємо найкращими подарунками. Якщо ж захочете привітати нас квітами — просимо цього не робити: ми просто не встигнемо ними насолодитися."
+        - paragraph [ref=e110]: Натомість будемо щиро раді маленькій пляшечці вашого улюбленого напою — смакуючи який, ми з теплом згадуватимемо про вас.
+    - region "Підтвердження" [ref=e111]:
+      - generic [ref=e112]:
+        - heading "Підтвердження" [level=2] [ref=e113]
+        - paragraph [ref=e114]:
+          - text: Будь ласка, підтвердіть присутність до
+          - strong [ref=e115]: 20 травня 2026
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: Ваше ім'я
+            - textbox "Ваше ім'я" [ref=e119]:
+              - /placeholder: Ім'я та прізвище
+          - group "Чи будете присутні?" [ref=e120]:
+            - generic [ref=e121]: Чи будете присутні?
+            - generic [ref=e122]:
+              - generic [ref=e123] [cursor=pointer]:
+                - radio "Так, буду"
+                - generic [ref=e125]: Так, буду
+              - generic [ref=e126] [cursor=pointer]:
+                - radio "На жаль, не зможу"
+                - generic [ref=e128]: На жаль, не зможу
+          - button "Підтвердити присутність" [ref=e129] [cursor=pointer]
+  - contentinfo [ref=e130]:
+    - paragraph [ref=e131]: Денис & Аліна · 06.06.2026
+    - generic [ref=e132]: з любов'ю

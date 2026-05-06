@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Денис &amp; Аліна · 06.06.2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,opsz,wght@0,6..96,300;0,6..96,400;0,6..96,500;1,6..96,300;1,6..96,400;1,6..96,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- OPENING RITUAL -->
+  <div id="invite-start" class="invite-start">
+    <div class="invite-start__inner">
+      <p class="invite-start__eyebrow">Запрошення на весілля</p>
+      <p class="invite-start__date">06 · 06 · 2026</p>
+      <button class="invite-start__open" id="invite-open" aria-label="Відкрити запрошення">
+        <svg class="invite-start__ring" viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <path id="ring-path" d="M 100,100 m -78,0 a 78,78 0 1,1 156,0 a 78,78 0 1,1 -156,0"/>
+          </defs>
+          <text class="invite-start__ring-text">
+            <textPath href="#ring-path">ВІДКРИТИ ЗАПРОШЕННЯ · ВІДКРИТИ ЗАПРОШЕННЯ · </textPath>
+          </text>
+        </svg>
+        <span class="invite-start__open-arrow" aria-hidden="true">↓</span>
+      </button>
+    </div>
+  </div>
+
+  <header class="site-nav" id="site-nav">
+    <nav aria-label="Розділи сторінки">
+      <a href="#details" class="nav-link">Деталі</a>
+      <a href="#dresscode" class="nav-link">Дрес-код</a>
+      <a href="#rsvp" class="nav-link">Підтвердження</a>
+    </nav>
+  </header>
+
+  <main class="slides-stack">
+
+    <!-- HERO -->
+    <section class="hero slide hero--sealed" id="top" aria-labelledby="hero-names">
+      <div class="hero__photo-wrap" aria-hidden="true">
+        <img class="hero__photo"
+             src="photos-for-site/photo_4_2026-05-05_20-07-11.jpg"
+             alt=""
+             width="1280" height="853"
+             loading="eager"
+             fetchpriority="high"
+             data-parallax="0.16">
+      </div>
+      <div class="hero__inner">
+        <h1 class="hero__names" id="hero-names">
+          <span class="hero__name">Денис</span>
+          <span class="hero__amp">&amp;</span>
+          <span class="hero__name">Аліна</span>
+        </h1>
+
+        <p class="hero__date">06 · 06 · 2026</p>
+
+        <div class="countdown" id="countdown" role="timer" aria-label="Час до весілля">
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-days">—</span>
+            <span class="countdown__label">днів</span>
+          </div>
+          <span class="countdown__sep" aria-hidden="true">:</span>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-hours">—</span>
+            <span class="countdown__label">годин</span>
+          </div>
+          <span class="countdown__sep" aria-hidden="true">:</span>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-minutes">—</span>
+            <span class="countdown__label">хвилин</span>
+          </div>
+          <span class="countdown__sep" aria-hidden="true">:</span>
+          <div class="countdown__unit">
+            <span class="countdown__value" id="cd-seconds">—</span>
+            <span class="countdown__label">секунд</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#intro" class="hero__scroll" aria-label="До запрошення">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- OPENING LETTER -->
+    <section class="section slide slide--letter" id="intro" aria-labelledby="intro-salutation">
+      <div class="section__inner section__inner--letter">
+
+        <p class="letter__salutation reveal-item" id="intro-salutation">Дорогі&hellip;</p>
+
+        <p class="letter__body reveal-item">У нашому житті відбудеться надзвичайно важлива подія&nbsp;— наше весілля! Ми щиро віримо, що цей день стане прекрасним початком нашого щасливого сімейного життя.</p>
+
+        <p class="letter__body reveal-item">І ми не уявляємо цей радісний день без вас&nbsp;— близьких і дорогих нам людей!</p>
+
+      </div>
+    </section>
+
+    <!-- EVENT DETAILS -->
+    <section class="section slide" id="details" aria-labelledby="details-heading">
+      <div class="section__inner">
+        <h2 class="section__heading reveal-item" id="details-heading">Деталі</h2>
+        <div class="details__grid">
+
+          <div class="details__block reveal-item">
+            <span class="details__eyebrow">Дата</span>
+            <p class="details__value">Субота, 6 червня 2026</p>
+          </div>
+
+          <div class="details__block reveal-item">
+            <span class="details__eyebrow">Місце</span>
+            <p class="details__value">Villa Malina, вул. Приморська, 92, Лютіж, Київська обл.</p>
+            <a href="https://maps.app.goo.gl/XyK6kf7c1bPBeFvTA" target="_blank" rel="noopener noreferrer" class="text-link">Переглянути на карті →</a>
+          </div>
+
+        </div>
+
+        <div class="timing reveal-item" aria-label="Програма дня">
+          <div class="timing__item">
+            <time class="timing__time" datetime="2026-06-06T14:00">14:00</time>
+            <span class="timing__label">Welcome</span>
+          </div>
+          <div class="timing__divider" aria-hidden="true"></div>
+          <div class="timing__item">
+            <time class="timing__time" datetime="2026-06-06T15:00">15:00</time>
+            <span class="timing__label">Церемонія</span>
+          </div>
+          <div class="timing__divider" aria-hidden="true"></div>
+          <div class="timing__item">
+            <time class="timing__time" datetime="2026-06-06T16:00">16:00</time>
+            <span class="timing__label">Банкет</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY (carousel) -->
+    <div class="slide slide--gallery" role="region" aria-label="Фотографії Дениса та Аліни">
+      <div class="gallery__track" id="gallery-track">
+        <div class="gallery__slide">
+          <img class="gallery__img"
+               src="photos-for-site/photo_1_2026-05-05_20-07-11.jpg"
+               alt="Денис та Аліна" width="1280" height="853" loading="eager">
+        </div>
+        <div class="gallery__slide">
+          <img class="gallery__img"
+               src="photos-for-site/photo_1_2026-05-06_15-48-28.jpg"
+               alt="Денис та Аліна" width="1280" height="853" loading="lazy">
+        </div>
+        <div class="gallery__slide">
+          <img class="gallery__img"
+               src="photos-for-site/photo_2_2026-05-06_15-48-28.jpg"
+               alt="Денис та Аліна" width="1280" height="853" loading="lazy">
+        </div>
+        <div class="gallery__slide">
+          <img class="gallery__img"
+               src="photos-for-site/photo_3_2026-05-06_15-48-28.jpg"
+               alt="Денис та Аліна" width="1280" height="853" loading="lazy">
+        </div>
+      </div>
+
+      <button type="button" class="gallery__btn gallery__btn--prev" id="gallery-prev" aria-label="Попереднє фото">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+      <button type="button" class="gallery__btn gallery__btn--next" id="gallery-next" aria-label="Наступне фото">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+
+      <span id="gallery-announce" class="sr-only" aria-live="polite" aria-atomic="true"></span>
+
+      <div class="gallery__dots" role="group" aria-label="Навігація по фото">
+        <button type="button" class="gallery__dot gallery__dot--active" aria-label="Фото 1" aria-pressed="true"></button>
+        <button type="button" class="gallery__dot" aria-label="Фото 2" aria-pressed="false"></button>
+        <button type="button" class="gallery__dot" aria-label="Фото 3" aria-pressed="false"></button>
+        <button type="button" class="gallery__dot" aria-label="Фото 4" aria-pressed="false"></button>
+      </div>
+    </div>
+
+    <!-- DRESS CODE -->
+    <section class="section slide" id="dresscode" aria-labelledby="dresscode-heading">
+      <div class="section__inner">
+        <h2 class="section__heading reveal-item" id="dresscode-heading">Дрес-код</h2>
+
+        <div class="dresscode-intro reveal-item">
+          <p>Ми обрали ніжну палітру&nbsp;— кольори природи: м'які, світлі відтінки, без яскравих акцентів, натхненні природною гармонією та легкістю.</p>
+        </div>
+
+        <div class="swatches" role="list" aria-label="Кольори дрес-коду">
+          <div class="swatch reveal-item reveal-item--bloom" role="listitem">
+            <div class="swatch__chip" style="background: oklch(80% 0.04 78);" aria-hidden="true"></div>
+            <span class="swatch__name">Бежевий</span>
+          </div>
+          <div class="swatch reveal-item reveal-item--bloom" role="listitem">
+            <div class="swatch__chip" style="background: oklch(57% 0.06 148);" aria-hidden="true"></div>
+            <span class="swatch__name">Шавлієвий</span>
+          </div>
+          <div class="swatch reveal-item reveal-item--bloom" role="listitem">
+            <div class="swatch__chip" style="background: oklch(95% 0.05 102);" aria-hidden="true"></div>
+            <span class="swatch__name">Світло&#8209;лимонний</span>
+          </div>
+          <div class="swatch reveal-item reveal-item--bloom" role="listitem">
+            <div class="swatch__chip" style="background: oklch(87% 0.04 228);" aria-hidden="true"></div>
+            <span class="swatch__name">Світло&#8209;блакитний</span>
+          </div>
+          <div class="swatch reveal-item reveal-item--bloom" role="listitem">
+            <div class="swatch__chip" style="background: oklch(88% 0.03 10);" aria-hidden="true"></div>
+            <span class="swatch__name">Світло&#8209;рожевий</span>
+          </div>
+          <div class="swatch reveal-item reveal-item--bloom" role="listitem">
+            <div class="swatch__chip" style="background: oklch(37% 0.07 163);" aria-hidden="true"></div>
+            <span class="swatch__name">Смарагдовий</span>
+          </div>
+        </div>
+
+        <p class="dresscode-note reveal-item">Святкування відбудеться на відкритому повітрі&nbsp;— оберіть зручний одяг та взуття. Захопіть рушничок: на вас чекатиме приємний водний формат.</p>
+
+      </div>
+    </section>
+
+    <!-- GIFTS -->
+    <section class="section slide slide--gifts" id="gifts" aria-labelledby="gifts-heading">
+      <div class="section__inner section__inner--narrow">
+
+        <p class="gifts__calli reveal-item" id="gifts-heading">Наші дорогі!</p>
+
+        <p class="gifts__text reveal-item">Вашу увагу та присутність ми вважаємо найкращими подарунками. Якщо ж захочете привітати нас квітами&nbsp;— просимо цього не робити: ми просто не встигнемо ними насолодитися.</p>
+
+        <p class="gifts__text reveal-item">Натомість будемо щиро раді маленькій пляшечці вашого улюбленого напою&nbsp;— смакуючи який, ми з теплом згадуватимемо про вас.</p>
+
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section slide" id="rsvp" aria-labelledby="rsvp-heading">
+      <div class="section__inner section__inner--narrow">
+        <h2 class="section__heading" id="rsvp-heading">Підтвердження</h2>
+        <p class="section__lead">Будь ласка, підтвердіть присутність до <strong>20 травня 2026</strong></p>
+
+        <form class="rsvp-form" id="rsvp-form" novalidate>
+
+          <div class="field">
+            <label class="field__label" for="f-name">Ваше ім'я</label>
+            <input class="field__input" type="text" id="f-name" name="name" autocomplete="name" required placeholder="Ім'я та прізвище">
+            <span class="field__error" id="name-error" role="alert" aria-live="polite" hidden>Будь ласка, вкажіть ваше ім'я</span>
+          </div>
+
+          <fieldset class="field field--group">
+            <legend class="field__label">Чи будете присутні?</legend>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input class="radio-input" type="radio" name="attending" value="yes">
+                <span class="radio-custom" aria-hidden="true"></span>
+                <span class="radio-text">Так, буду</span>
+              </label>
+              <label class="radio-label">
+                <input class="radio-input" type="radio" name="attending" value="no">
+                <span class="radio-custom" aria-hidden="true"></span>
+                <span class="radio-text">На жаль, не зможу</span>
+              </label>
+            </div>
+            <span class="field__error" id="attending-error" role="alert" aria-live="polite" hidden>Будь ласка, оберіть варіант</span>
+          </fieldset>
+
+          <div class="field" id="guest-field" hidden>
+            <label class="field__label" for="f-guest">Ім'я супутника / супутниці</label>
+            <input class="field__input" type="text" id="f-guest" name="guest" autocomplete="off" placeholder="Необов'язково">
+          </div>
+
+          <button class="btn-submit" type="submit">Підтвердити присутність</button>
+
+        </form>
+
+        <div class="rsvp-success" id="rsvp-success" hidden aria-live="polite">
+          <p class="rsvp-success__text">Дякуємо, чекаємо на вас.</p>
+          <p class="rsvp-success__sub" id="rsvp-success-sub">До зустрічі 6 червня 2026.</p>
+          <nav class="rsvp-success__nav" aria-label="Розділи запрошення">
+            <a href="#details" class="text-link">Деталі події</a>
+            <a href="#dresscode" class="text-link">Дрес-код</a>
+          </nav>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Денис &amp; Аліна · 06.06.2026</p>
+    <span class="footer-closing">з любов'ю</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

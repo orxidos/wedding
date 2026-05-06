@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "Розділи сторінки" [ref=e3]:
+      - link "Деталі" [ref=e4] [cursor=pointer]:
+        - /url: "#details"
+      - link "Дрес-код" [ref=e5] [cursor=pointer]:
+        - /url: "#dresscode"
+      - link "Розміщення" [ref=e6] [cursor=pointer]:
+        - /url: "#seating"
+      - link "Підтвердження" [ref=e7] [cursor=pointer]:
+        - /url: "#rsvp"
+  - main [ref=e8]:
+    - region "Андрій & Єлизавета" [ref=e9]:
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: Запрошення на весілля
+        - heading "Андрій & Єлизавета" [level=1] [ref=e14]:
+          - generic [ref=e15]: Андрій
+          - generic [ref=e16]: "&"
+          - generic [ref=e17]: Єлизавета
+        - paragraph [ref=e18]: 06 червня 2026
+        - timer "Час до весілля" [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]: "31"
+            - generic [ref=e24]: днів
+          - generic [ref=e25]: ":"
+          - generic [ref=e26]:
+            - generic [ref=e27]: "17"
+            - generic [ref=e28]: годин
+          - generic [ref=e29]: ":"
+          - generic [ref=e30]:
+            - generic [ref=e31]: "53"
+            - generic [ref=e32]: хвилин
+          - generic [ref=e33]: ":"
+          - generic [ref=e34]:
+            - generic [ref=e35]: "20"
+            - generic [ref=e36]: секунд
+      - link "До деталей" [ref=e37] [cursor=pointer]:
+        - /url: "#details"
+        - img [ref=e38]
+    - region "Деталі" [ref=e40]:
+      - generic [ref=e41]:
+        - heading "Деталі" [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: Дата
+            - paragraph [ref=e46]: Субота, 6 червня 2026
+          - generic [ref=e47]:
+            - generic [ref=e48]: Місце
+            - paragraph [ref=e49]: Клуб відпочинку «Парус»
+            - link "Переглянути на карті →" [ref=e50] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=Клуб+відпочинку+Парус
+          - generic [ref=e51]:
+            - generic [ref=e52]: Програма
+            - list [ref=e53]:
+              - listitem [ref=e54]:
+                - time [ref=e55]: 13:00
+                - generic [ref=e56]: Церемонія
+              - listitem [ref=e57]:
+                - time [ref=e58]: 14:00
+                - generic [ref=e59]: Банкет
+              - listitem [ref=e60]:
+                - time [ref=e61]: 19:30
+                - generic [ref=e62]: Торт
+    - region "Дрес-код" [ref=e63]:
+      - generic [ref=e64]:
+        - heading "Дрес-код" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Просимо дотримуватись кольорової палітри
+        - list "Кольори дрес-коду" [ref=e67]:
+          - listitem [ref=e68]:
+            - generic [ref=e70]: Білий
+          - listitem [ref=e71]:
+            - generic [ref=e73]: Золотий
+          - listitem [ref=e74]:
+            - generic [ref=e76]: Світло‑бежевий
+          - listitem [ref=e77]:
+            - generic [ref=e79]: Бежевий
+          - listitem [ref=e80]:
+            - generic [ref=e82]: Бронзовий
+    - region "Розміщення" [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Розміщення" [level=2] [ref=e85]
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - heading "Стіл 1" [level=3] [ref=e88]
+            - list [ref=e89]:
+              - listitem [ref=e90]: Іван Коваленко
+              - listitem [ref=e91]: Марія Коваленко
+              - listitem [ref=e92]: Олег Мельник
+              - listitem [ref=e93]: Тетяна Мельник
+          - generic [ref=e94]:
+            - heading "Стіл 2" [level=3] [ref=e95]
+            - list [ref=e96]:
+              - listitem [ref=e97]: Василь Шевченко
+              - listitem [ref=e98]: Надія Шевченко
+              - listitem [ref=e99]: Дмитро Бондар
+              - listitem [ref=e100]: Оксана Бондар
+          - generic [ref=e101]:
+            - heading "Стіл 3" [level=3] [ref=e102]
+            - list [ref=e103]:
+              - listitem [ref=e104]: Петро Лисенко
+              - listitem [ref=e105]: Ганна Лисенко
+              - listitem [ref=e106]: Сергій Кравченко
+              - listitem [ref=e107]: Юлія Кравченко
+    - region "Підтвердження" [ref=e108]:
+      - generic [ref=e109]:
+        - heading "Підтвердження" [level=2] [ref=e110]
+        - paragraph [ref=e111]:
+          - text: Будь ласка, підтвердіть присутність до
+          - strong [ref=e112]: 1 травня 2026
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Ваше ім'я
+            - textbox "Ваше ім'я" [ref=e116]:
+              - /placeholder: Ім'я та прізвище
+          - group "Чи будете присутні?" [ref=e117]:
+            - generic [ref=e118]: Чи будете присутні?
+            - generic [ref=e119]:
+              - generic [ref=e120] [cursor=pointer]:
+                - radio "Так, буду"
+                - generic [ref=e122]: Так, буду
+              - generic [ref=e123] [cursor=pointer]:
+                - radio "На жаль, не зможу"
+                - generic [ref=e125]: На жаль, не зможу
+          - generic [ref=e126]:
+            - generic [ref=e127]: Ім'я супутника / супутниці
+            - textbox "Ім'я супутника / супутниці" [ref=e128]:
+              - /placeholder: Необов'язково
+          - button "Підтвердити присутність" [ref=e129] [cursor=pointer]
+  - contentinfo [ref=e130]:
+    - paragraph [ref=e131]: Андрій & Єлизавета · 06.06.2026
