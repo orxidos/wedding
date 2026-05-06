@@ -1,9 +1,14 @@
-# Ignore files
+# Photos
+photos-for-site/
+
+# Guest data & docs
 *.txt
 *.md
-*.png
-*.jpg
+
+# Playwright temp files
+.playwright-mcp/
+
+# Screenshots taken during dev
 *.jpeg
-# Add other photo extensions as needed
-!photos-for-site/
-!photos-for-site/*.jpg
+*.jpg
+*.png
