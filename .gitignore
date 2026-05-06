@@ -6,3 +6,4 @@
 *.jpeg
 # Add other photo extensions as needed
 !photos-for-site/
+!photos-for-site/*.jpg

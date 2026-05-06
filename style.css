@@ -19,6 +19,7 @@
 
   --font-display: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
   --font-calli:   'Great Vibes', cursive;
+  --font-calli-cyrillic: 'Great Vibes', cursive;
 
   --space-1:  0.25rem;
   --space-2:  0.5rem;
@@ -273,6 +274,10 @@ body {
 
 .hero__name {
   display: block;
+}
+
+.hero__initial {
+  font-family: 'Alex Brush', cursive;
 }
 
 .hero__name:first-child {
@@ -1489,7 +1494,7 @@ body {
 }
 
 .letter__salutation {
-  font-family: var(--font-calli);
+  font-family: var(--font-calli-cyrillic);
   font-size: clamp(3.5rem, 10vw, 7rem);
   line-height: 1;
   color: var(--color-text);
@@ -1675,7 +1680,7 @@ body {
 }
 
 .gifts__calli {
-  font-family: var(--font-calli);
+  font-family: var(--font-calli-cyrillic);
   font-size: clamp(3rem, 8vw, 5.5rem);
   line-height: 1.1;
   color: var(--color-text);
@@ -1699,7 +1704,7 @@ body {
 /* ── Footer calligraphic closing ── */
 .footer-closing {
   display: block;
-  font-family: var(--font-calli);
+  font-family: var(--font-calli-cyrillic);
   font-size: clamp(2rem, 4.5vw, 3rem);
   color: var(--color-gold);
   margin-top: var(--space-3);
