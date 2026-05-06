@@ -1,0 +1,8 @@
+# Ignore files
+*.txt
+*.md
+*.png
+*.jpg
+*.jpeg
+# Add other photo extensions as needed
+!photos-for-site/
