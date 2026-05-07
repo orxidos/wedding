@@ -31,6 +31,7 @@
   </div>
 
   <header class="site-nav" id="site-nav">
+    <div class="nav__mono" aria-hidden="true">D &amp; A</div>
     <nav aria-label="Розділи сторінки">
       <a href="#details" class="nav-link">Деталі</a>
       <a href="#dresscode" class="nav-link">Дрес-код</a>
@@ -65,17 +66,14 @@
             <span class="countdown__value" id="cd-days">—</span>
             <span class="countdown__label">днів</span>
           </div>
-          <span class="countdown__sep" aria-hidden="true">:</span>
           <div class="countdown__unit">
             <span class="countdown__value" id="cd-hours">—</span>
             <span class="countdown__label">годин</span>
           </div>
-          <span class="countdown__sep" aria-hidden="true">:</span>
           <div class="countdown__unit">
             <span class="countdown__value" id="cd-minutes">—</span>
             <span class="countdown__label">хвилин</span>
           </div>
-          <span class="countdown__sep" aria-hidden="true">:</span>
           <div class="countdown__unit">
             <span class="countdown__value" id="cd-seconds">—</span>
             <span class="countdown__label">секунд</span>
@@ -164,8 +162,20 @@
 
           <div class="details__block reveal-item">
             <span class="details__eyebrow">Місце</span>
-            <p class="details__value">Villa Malina, вул. Приморська, 92, Лютіж, Київська обл.</p>
-            <a href="https://maps.app.goo.gl/XyK6kf7c1bPBeFvTA" target="_blank" rel="noopener noreferrer" class="text-link">Переглянути на карті →</a>
+            <div class="venue-card">
+              <div class="venue-card__map" aria-hidden="true">
+                <div class="venue-card__pin">
+                  <div class="venue-card__pin-head"></div>
+                  <div class="venue-card__pin-shadow"></div>
+                </div>
+              </div>
+              <div class="venue-card__body">
+                <p class="venue-card__name">Villa Malina</p>
+                <p class="venue-card__address">вул. Приморська, 92<br>Лютіж, Київська обл.</p>
+                <div class="venue-card__rule" aria-hidden="true"><div class="venue-card__diamond"></div></div>
+                <a href="https://maps.app.goo.gl/XyK6kf7c1bPBeFvTA" target="_blank" rel="noopener noreferrer" class="venue-card__link">Переглянути на карті</a>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -333,8 +343,11 @@
         </form>
 
         <div class="rsvp-success" id="rsvp-success" hidden aria-live="polite">
-          <p class="rsvp-success__text">Дякуємо, чекаємо на вас.</p>
-          <p class="rsvp-success__sub" id="rsvp-success-sub">До зустрічі 6 червня 2026.</p>
+          <div class="rsvp-success__mono" aria-hidden="true">D &amp; A</div>
+          <p class="rsvp-success__text">Ми чекаємо на вас</p>
+          <p class="rsvp-success__date">06 · 06 · 2026</p>
+          <div class="rsvp-success__rule" aria-hidden="true"><span>✦</span></div>
+          <p class="rsvp-success__sub" id="rsvp-success-sub">Дякуємо за підтвердження — цей день стане ще кращим разом з вами.</p>
           <nav class="rsvp-success__nav" aria-label="Розділи запрошення">
             <a href="#details" class="text-link">Деталі події</a>
             <a href="#dresscode" class="text-link">Дрес-код</a>
@@ -347,6 +360,7 @@
   </main>
 
   <footer class="site-footer">
+    <span class="footer__mono" aria-hidden="true">D &amp; A</span>
     <p>Денис &amp; Аліна · 06.06.2026</p>
     <span class="footer-closing">з любов'ю</span>
   </footer>
